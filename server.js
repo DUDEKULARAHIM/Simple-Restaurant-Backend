@@ -54,7 +54,7 @@ app.use(express.json());
 // CORS Configuration - Customize as needed
 const corsOptions = {
   origin: [
-    'https://your-frontend-domain.com', // Replace with your frontend domain hosted on Render
+    'https://sample-restaurant-website.onrender.com', // Replace with your frontend domain hosted on Render
     'http://localhost:3000'             // Keep localhost for local development
   ],
   optionsSuccessStatus: 200,
