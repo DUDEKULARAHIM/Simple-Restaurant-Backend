@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://your-frontend-domain.com'
+  origin: 'https://sample-restaurant-website.onrender.com'
 }));
 
 // Connect to MongoDB
